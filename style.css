@@ -1,3 +1,19 @@
 .highlight {
     color: #00a4ff;
 }
+
+@media only screen and (max-width:767px) {
+    .row {
+        display: inline;
+    }
+
+    #aulas .row .col {
+        margin-bottom: 1rem;
+    }
+
+    #contato .col-5 {
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+
+}
